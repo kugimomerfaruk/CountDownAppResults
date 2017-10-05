@@ -96,11 +96,13 @@ class ViewController: UIViewController {
             stepperOutlet.value = 0
             
             // Changing View
+            /* 
             let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
             let resultViewController = storyBoard.instantiateViewController(withIdentifier: "ResultView") as! ResultViewController
             self.present(resultViewController, animated:true, completion:nil)
+            */
             // Changing View Finish
-            
+            performSegue(withIdentifier: "third", sender: self)
             return
             //timer Durdur
             

@@ -84,6 +84,7 @@
                         <outlet property="progressBarOutlet" destination="gma-aO-VKu" id="CQ8-gO-n0Y"/>
                         <outlet property="stepperOutlet" destination="Owa-Ny-bhH" id="w6a-hd-dMb"/>
                         <outlet property="touchTheScreenLabel" destination="lID-SG-1Jj" id="emF-wk-Sts"/>
+                        <segue destination="1qZ-Hg-b47" kind="show" identifier="third" id="fBv-6P-yvT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -139,4 +140,7 @@
     <resources>
         <image name="Circle" width="150" height="150"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="fBv-6P-yvT"/>
+    </inferredMetricsTieBreakers>
 </document>
